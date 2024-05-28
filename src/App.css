@@ -1,0 +1,87 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 3em;
+  
+}
+
+#tweet-quote {
+  background-color: #1da1f2;
+  color: white;
+  margin-right: 5px;
+  padding: 10px;
+border-radius: 8px;
+}
+
+ 
+#tumblr-quote {
+  background-color: #0a1d29;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+#author{
+  text-align: end;
+}
+#quote-box {
+  padding: 21px;
+  background-color: rgb(237, 241, 241);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+ 
+
+}
+#new-quote {
+  margin-left: 99px;
+  
+
+
+}
+.container {
+   
+  min-height: 100vh;      
+}
+
+ 
+
+
+
+
+
+/* App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  min-height: 100vh;      
+}
+
+#quote-box {
+  max-width: 600px;       
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  text-align: center;     
+}
+
+#new-quote {
+  margin-top: 20px;
+}
